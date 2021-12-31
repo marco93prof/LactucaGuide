@@ -32,11 +32,20 @@ body {
 }
 
 .container {
-	/* width: 60%; */
 	width: 1170px;
 	margin: 0 auto;
 	position: relative; /*** 1 ***/
 	overflow: hidden;
+
+	/* border: 3px solid blue; */
+}
+
+h2 {
+	margin-bottom: 15px;
+	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
 }
 
 .highlightColor {
@@ -50,7 +59,7 @@ body {
 /*#############################################*/
 
 header {
-	padding: 10px 0;
+	padding: 20px 0;
 	background-color: #222;
 }
 
@@ -77,20 +86,20 @@ main {
 	background-color: #fff;
 }
 
-.pag1 {
+.page1 {
 	display: inline-block;
 	width: 50%;
 	padding: 10px 0;
 }
 
-.pag1-title {
+.page1-title {
 	font-family: LG, Haettenschweiler, Impact, sans-serif;
 	font-weight: 100;
 	font-size: 72px;
 	color: #eee;
 }
 
-.pag1-subtitle {
+.page1-subtitle {
 	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 100;
 	font-size: 20px;
@@ -104,29 +113,21 @@ main {
 
 /*#############################################*/
 
-.pag2 {
+.page2 {
 	float: right;
 	width: 50%;
 	padding: 10px;
 }
 
-.pag2-form {
+.page2-form {
 	width: 450px;
 	padding: 20px;
 	border-radius: 2px;
 	background-color: #fff;
-	border: 2px solid #222;
+	/* border: 2px solid #222; */
 }
 
-.pag2-form h2 {
-	margin-bottom: 15px;
-	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 24px;
-	text-align: center;
-	letter-spacing: 1px;
-}
-
-.pag2-form label {
+.page2-form label {
 	display: inline-block;
 	margin: 5px 0;
 	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
@@ -138,10 +139,15 @@ main {
 .userInput {
 	width: 100%;
 	margin-bottom: 15px;
-	padding: 8px;
+	padding: 7px;
 	border: 1px solid #aaa;
-	border-radius: 3px;
+	border-radius: 5px;
 	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
+}
+
+.userInput:hover {
+	outline: none;
+	border: 1px solid #f03;
 }
 
 .userInput:focus, .userInput:active {
@@ -150,10 +156,7 @@ main {
 	box-shadow: 0 0 3px #f03;
 }
 
-.userInput:hover {
-	outline: none;
-	border: 1px solid #f03;
-}
+
 
 .button {
 	display: block;
@@ -163,7 +166,7 @@ main {
 	font-weight: 600;
 	font-size: 20px;
 	color: #eee;
-	text-shadow: 1px 1px 0 #000;
+	/* text-shadow: 1px 1px 0 #000; */
 	background-color: #f03;
 }
 
@@ -178,6 +181,28 @@ main {
 }
 
 /*#############################################*/
+
+.page3 {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.page3 h2 {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.info {
+	display: inline-block;
+	width: 25%;
+	margin: 30px 30px;
+	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
+	color: #444;
+	font-size: 16px;
+
+}
+/*#############################################*/
+
 
 footer {
 	padding: 15px;
