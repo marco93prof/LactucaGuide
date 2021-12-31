@@ -1,0 +1,100 @@
+/*#############################################*/
+
+@font-face {
+	font-family: LG;
+	src: url("./fonts/LeagueGothic-Regular.otf");
+}
+
+@font-face {
+	font-family: LGc;
+	src: url("./fonts/LeagueGothic-CondensedRegular.otf");
+}
+
+@font-face {
+	font-family: Livory;
+	src: url("./fonts/LivoryRegular.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	list-style-type: none;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.highlightColor{
+	color: #f03;
+}
+
+/*#############################################*/
+
+header {
+	padding: 15px;
+	background-color: #222;
+}
+
+.logo-img {
+	width: 34px;
+}
+
+.logo-text {
+	position: absolute;
+	left: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: LG, Haettenschweiler, Impact, sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	color: #eee;
+}
+
+/*#############################################*/
+
+main {
+	background-image: url("./images/bg.png");
+	background-repeat: repeat-x;
+	background-color: #eee;
+	padding: 15px;
+}
+
+.main-title {
+	font-family: LG, Haettenschweiler, Impact, sans-serif;
+	font-weight: 100;
+	font-size: 72px;
+	color: #eee;
+}
+
+.main-subtitle {
+	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 100;
+	font-size: 22px;
+	color: #eee;
+	font-style: italic;
+}
+
+.devices-img {
+	margin-top: 50px;
+}
+
+/*#############################################*/
+
+footer {
+	padding: 15px;
+	background-color: #222;
+	color: #eee;
+}
