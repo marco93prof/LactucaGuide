@@ -1,0 +1,188 @@
+/*#############################################*/
+
+@font-face {
+	font-family: LG;
+	src: url("./fonts/LeagueGothic-Regular.otf");
+}
+
+@font-face {
+	font-family: LGc;
+	src: url("./fonts/LeagueGothic-CondensedRegular.otf");
+}
+
+@font-face {
+	font-family: Livory;
+	src: url("./fonts/LivoryRegular.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	list-style-type: none;
+}
+
+.container {
+	/* width: 60%; */
+	width: 1170px;
+	margin: 0 auto;
+	position: relative; /*** 1 ***/
+	overflow: hidden;
+}
+
+.highlightColor {
+	color: #f03;
+}
+
+.highlightColorDark {
+	color: #c03;
+}
+
+/*#############################################*/
+
+header {
+	padding: 10px 0;
+	background-color: #222;
+}
+
+.logo-img {
+	width: 34px;
+}
+
+.logo-text {
+	position: absolute; /*** 1 ***/
+	left: 38px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: LG, Haettenschweiler, Impact, sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	color: #eee;
+}
+
+/*#############################################*/
+
+main {
+	background-image: url("./images/bg.png");
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+.pag1 {
+	display: inline-block;
+	width: 50%;
+	padding: 10px 0;
+	min-height: ;
+}
+
+.pag1-title {
+	font-family: LG, Haettenschweiler, Impact, sans-serif;
+	font-weight: 100;
+	font-size: 72px;
+	color: #eee;
+}
+
+.pag1-subtitle {
+	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	color: #eee;
+	font-style: italic;
+}
+
+.devices-img {
+	margin-top: 50px;
+}
+
+/*#############################################*/
+
+.pag2 {
+	float: right;
+	width: 50%;
+	padding: 10px;
+
+}
+
+.pag2-form {
+	width: 450px;
+	padding: 20px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 2px solid #222;
+}
+
+.pag2-form h2 {
+	margin-bottom: 15px;
+	font-family: Livory, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.pag2-form label {
+	display: inline-block;
+	margin: 5px 0;
+	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #444;
+}
+
+.userInput {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 8px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
+}
+
+.userInput:focus, .userInput:active {
+	outline: none;
+	border: 1px solid #f03;
+	box-shadow: 0 0 3px #f03;
+}
+
+.userInput:hover {
+	outline: none;
+	border: 1px solid #f03;
+}
+
+.button {
+	display: block;
+	margin: 20px auto 0px auto;
+	padding: 15px;
+	font-family: 'Trebuchet MS',  Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #eee;
+	text-shadow: 1px 1px 0 #000;
+	background-color: #f03;
+}
+
+.button:hover {
+	box-shadow: 0 0 5px  #f03;
+	cursor: pointer;
+}
+
+.button:active {
+	color: #ddd;
+	background-color: #c03;
+}
+
+/*#############################################*/
+
+footer {
+	padding: 15px;
+	background-color: #222;
+	color: #eee;
+}
