@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Lactuca Guide</title>
+	<title>Nozomi Guide</title>
 	<link rel="icon" type="image/png" href="./images/icon.png"> 
 	<link rel="stylesheet" href="style.css">
 	<!-- ICON COLOR: #F03 -->
@@ -16,33 +16,32 @@
 	<header>
 		<div class="container">
 			<img class="logo-img" src="./images/icon.png" alt="logo-img">
-			<h2 class=logo-text>LACTUCA</h2>
+			<h2 class=logo-text>NOZOMI</h2>
 		</div>
 	</header>
 
 	<main>
 		<div class="container">
-			<h1 class="main-title">RESPOSIVE PAGES GUIDE</h1>
-			<p class="main-subtitle">Tips and Reasons to Build Responsive Websites</p>
-			<img class="devices-img" src="./images/devices.webp" alt="devices-img">
-			
-			<section>
-				<h2 class="highlightColor">Complete the form to get your Free Guide.</h2>
-				<form action="" method="get">
+	
+			<section class="pag1">	
+				<h1 class="pag1-title">RESPOSIVE PAGES GUIDE</h1>
+				<p class="pag1-subtitle">Tips and Reasons to Build Responsive Websites</p>
+				<img class="devices-img" src="./images/devices.webp" alt="devices-img">
+			</section>
+
+			<section class="pag2">
+				<form class="pag2-form" action="" method="get">
+					<h2 class="highlightColorDark">Complete the form to get your Free Guide.</h2>
 					<label for="fname">FIRST NAME<span class="highlightColor">*</span></label><br>
-					<input type="text" id="fname" name="FNAME"><br>
-
+					<input class="userInput" type="text" id="fname" name="FNAME" pattern="[a-zA-Z]{1,64}" required><br>
 					<label for="lname">LAST NAME<span class="highlightColor">*</span></label><br>
-					<input type="text" id="lname" name="LNAME"><br>
-
-					<label for="email">COMPANY EMAIL<span class="highlightColor">*</span></label><br>
-					<input type="email" id="email" name="EMAIL"><br>
-
+					<input class="userInput" type="text" id="lname" name="LNAME" pattern="[a-zA-Z]{1,64}" required><br>
 					<label for="compname">COMPANY NAME<span class="highlightColor">*</span></label><br>
-					<input type="text" id="compname" name="COMPNAME"><br>
-
+					<input class="userInput" type="text" id="compname" name="CNAME" required><br>
+					<label for="email">COMPANY EMAIL<span class="highlightColor">*</span></label><br>
+					<input class="userInput" type="email" id="email" name="CEMAIL" required><br>
 					<label for="comptype">COMPANY TYPE<span class="highlightColor">*</span></label><br>
-					<select name="comptype" id="compname">
+					<select class="userInput" name="CTYPE" id="compname" required>
 						<option value disabled selected>- Please Select One -</option>
 						<option value="manufacturer">Manufacturer</option>
 						<option value="distributor">Distributor</option>
@@ -50,13 +49,16 @@
 						<option value="industrialservices">Industrial Services</option>
 						<option value="agency">Agency</option>
 						<option value="other">Other</option>
-					</optgroup>
 					</select>
+					<input class="button" type="submit" value="DOWNLOAD YOUR GUIDE">
 				</form>
 			</section>
 		
 		</div>
 	</main>
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 	<footer>
 		<div class="container">
