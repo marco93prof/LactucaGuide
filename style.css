@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-	width: 1170px;
+	width: 1216px;
 	margin: 0 auto;
 	position: relative; /*** 1 ***/
 	overflow: hidden;
@@ -212,7 +212,6 @@ footer {
 }
 
 footer a {
-	font-size: 18px;
 	font-weight: 600;
 	text-decoration: underline;
 	color: #fff;
@@ -220,13 +219,13 @@ footer a {
 
 /*#############################################*/
 
-@media (max-width: 1250px) {
+@media (max-width: 1256px) {
 	.container {
-		width: 950px;
+		width: 1000px;
 	}
 
 	.page1-title {
-		font-size: 57px;
+		font-size: 60px;
 	}
 
 	.devices-img {
@@ -241,7 +240,6 @@ footer a {
 
 
 @media (max-width: 1024px) {
-
 	.container {
 		width: 750px;
 	}
@@ -261,6 +259,101 @@ footer a {
 	}
 	
 	.page2-form {
-		width: 750px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 650px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.info {
+		width: 100%;
+	}
+}
+
+@media (max-width: 670px) {
+	.container {
+		width: 550px;
+	}
+	
+	.devices-img {
+		margin-top: 50px;
+		width: 80%;
+	}
+
+	div.info img {
+		height: 120px;
+	}
+}
+
+@media (max-width: 570px) {
+	.container {
+		width: 420px;
+	}
+
+	.page1-title {
+		font-size: 50px;
+	}
+
+	.page1-subtitle {
+		font-size: 16px;
+	}
+	
+	.devices-img {
+		margin-top: 50px;
+		width: 90%;
+	}
+
+	.page2-form{
+		padding-top: 0;
+	}
+	
+	.button{
+		margin-top: 10px;
+		padding: 10px;
+		font-size: 18px;
+	}
+
+	.page3 > h2{
+		width: fit-content;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.info {
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	footer{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 440px) {
+	.container {
+		width: 360px;
+	}
+}
+
+@media (max-width: 375px) {
+	.container {
+		width: 320px;
+	}
+
+	.page1-title {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 335px) {
+	.container {
+		width: 300px;
 	}
 }
