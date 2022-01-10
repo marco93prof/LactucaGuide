@@ -1,4 +1,4 @@
-<h3 align="center">⚡ A <i><b>Responsive Landing Page</i></b> for a Harry Potter potions book ⚡</h3>
+<h3 align="center">⚡ A <i><b>Responsive Landing Page</i></b> for a Responsive Website Guide ⚡</h3>
 <p align="center"><i>For study purposes only.<i></p>
 
 <hr>
